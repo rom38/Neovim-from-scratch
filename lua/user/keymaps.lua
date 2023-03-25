@@ -19,6 +19,10 @@ vim.g.maplocalleader = " "
 --   command_mode = "c",
 
 -- Normal --
+-- Emmet --
+-- keymap("n", "<C-t>", "user_emmet_leader_key", opts)
+-- vim.g.user_emmet_leader_key =  "<C-e>"
+-- let g:user_emmet_leader_key = '<c-e>'
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
