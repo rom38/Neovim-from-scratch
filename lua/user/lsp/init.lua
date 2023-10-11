@@ -48,6 +48,9 @@ lspconfig.emmet_ls.setup({
     }
 })
 
+
+lspconfig.pyright.setup({})
+
 require("mason").setup()
 require("mason-lspconfig").setup {
     ensure_installed = { "jsonls", "pyright", "tsserver","lua_ls"},
