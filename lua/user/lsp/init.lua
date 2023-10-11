@@ -50,7 +50,7 @@ lspconfig.emmet_ls.setup({
 
 require("mason").setup()
 require("mason-lspconfig").setup {
-    ensure_installed = { "jsonls", "pyright", "tsserver"},
+    ensure_installed = { "jsonls", "pyright", "tsserver","lua_ls"},
 }
 
 vim.keymap.set('n', 'gl', vim.diagnostic.open_float)
